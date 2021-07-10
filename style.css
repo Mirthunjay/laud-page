@@ -1,0 +1,157 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+.new{
+    font-size: 0.5cm;
+    font-weight: 400;
+    margin: 10px;
+    padding-left: 20px;
+    color: lightgrey;
+} 
+
+.blue{
+    width: 100%;
+    color:white;
+    background-color: #1B1C1D;
+    height: 17cm;
+    font-size: 1.2cm;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.margin10{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+.img{
+    width: 70%;
+    margin-top: 34px;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(-3px 2px 14px lightgrey);
+}
+
+.text{
+    text-align: left;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top:7% ;
+    margin-bottom: 7%;
+}
+
+.wikipedia{
+    background-color: lightgray;
+    color: white;
+    width: 150px;
+    float: right;
+    margin-right: 1%;
+}
+.amazon{
+    background-color: darkorange;
+    color: white;
+    margin-left:1%;
+    width: 100px;
+
+}
+
+.quotes{
+
+    background-color: #0E0E0E;
+    color: white;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+.awardsspan{
+    padding: 0px 5px 0px 5px;
+}
+.star{
+    padding-right: 10px;
+}
+.awards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+.awards:before,.awards:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid lightgray;
+    margin: auto;
+  }
+.awards:before {
+    margin-right: 10px
+  }
+.awards:after {
+    margin-left: 10px
+  }
+
+.award-container{
+    font-size: smaller;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.award-cards{
+width: 267px;
+height:130px;
+}
+.year{
+    font-size: medium;
+    color: darkgray;
+}
+
+.bullets{
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+.footer-con{
+    background-color: #0E0E0E;
+    color: white;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7cm;
+}
+
+.footer-head{
+    font-size: 15px ;
+    color: whitesmoke;
+}
+
+.footer-content{
+    font-size: 10px;
+    color: lightgray;
+}
+
+.dark-grey{
+    color: darkgray;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.vl {
+    display: inline;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    height: 89px;
+}
