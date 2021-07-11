@@ -39,10 +39,10 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item" >
-                        <a class="nav-link" href="/about.html">About</a>
+                        <a class="nav-link" href="#main-page">About</a>
                     </li>
                     <li class="nav-item" >
-                        <a class="nav-link" href="/achieve.html">Achievements</a>
+                        <a class="nav-link" href="#achievements">Achievements</a>
                     </li>
                 </ul>
                     <!-- Navbar Menus Ends -->
@@ -66,7 +66,7 @@
     <!-- END HEADER -->
 
     <!-- Main -->
-    <main>
+    <main id="main-page">
         <!-- content -->
         <div class="container margin10">
             <div class="row">
@@ -96,9 +96,9 @@
         <div class="container ">
             <div class="row">
                 <div class="col buttons">
-                    <button type="button" class="btn wikipedia"><i class="fab fa-wikipedia-w"></i> Learn More</button>
-                    <button type="button" class="btn btn-danger" style="width: 110px;"> <i class="fab fa-youtube"></i> Videos</button>
-                    <button type="button" class="btn amazon"> <i class="fab fa-amazon"></i> Books</button>
+                    <button type="button" class="btn wikipedia" onclick="location.href='https://en.wikipedia.org/wiki/Kazi_Nazrul_Islam'" ><i class="fab fa-wikipedia-w"></i> Learn More</button>
+                    <button type="button" class="btn btn-danger" style="width: 110px;" onclick="location.href='https://www.youtube.com/results?search_query=Kazi+Nazrul+Islam'"> <i class="fab fa-youtube"></i> Videos</button>
+                    <button type="button" class="btn amazon"  onclick="location.href='https://www.amazon.in/Books-Kazi-Nazrul-Islam/s?rh=n%3A976389031%2Cp_27%3AKazi+Nazrul+Islam'"> <i class="fab fa-amazon"></i> Books</button>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
         </div>
         
         <!-- Star Awards -->
-        <div class="container-fluid star">
+        <div class="container-fluid star" id="achievements">
             <h4 class="awards"><span class="awardsspan"><i class="fas fa-star star"></i>Awards</span></h4>
         </div>
 
